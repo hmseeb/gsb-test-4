@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Midnight Dispatch — Stories From The Edge. A personal blog exploring the fringes of culture, technology, and the human condition." />
+  <meta name="author" content="Alex Mercer" />
+  <meta property="og:title" content="Midnight Dispatch" />
+  <meta property="og:description" content="Stories From The Edge — A personal blog by Alex Mercer." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Midnight Dispatch" />
+  <meta name="twitter:description" content="Stories From The Edge — A personal blog by Alex Mercer." />
+  <title>Midnight Dispatch</title>
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Midnight Dispatch home">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">Midnight Dispatch</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#recent-posts" class="nav-link">Posts</a></li>
+          <li><a href="#archive" class="nav-link">Archive</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#newsletter" class="nav-link nav-cta">Subscribe</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Est. 2024 · Independent Publishing</p>
+        <h1 id="hero-heading" class="hero-title">
+          Stories From<br /><em>The Edge</em>
+        </h1>
+        <p class="hero-subtitle">
+          Dispatches from the boundaries of culture, technology, and the uncharted corners of human experience.
+          Published when the hour is late and the city is quiet.
+        </p>
+        <div class="hero-actions">
+          <a href="#recent-posts" class="btn btn-primary">Read Latest</a>
+          <a href="#newsletter" class="btn btn-ghost">Get the Newsletter</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">128</span>
+            <span class="stat-label">Articles</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">4.2k</span>
+            <span class="stat-label">Subscribers</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Years Running</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+    </section>
+
+    <!-- ===== MAIN CONTENT + SIDEBAR ===== -->
+    <div class="content-wrapper">
+      <div class="container content-grid">
+
+        <!-- LEFT: MAIN CONTENT -->
+        <div class="main-content">
+
+          <!-- RECENT POSTS -->
+          <section id="recent-posts" class="section" aria-labelledby="posts-heading">
+            <div class="section-header">
+              <h2 id="posts-heading" class="section-title">Recent Posts</h2>
+              <a href="#archive" class="section-link">View all →</a>
+            </div>
+
+            <div class="posts-grid">
+
+              <!-- Article Card 1 -->
+              <article class="post-card post-card--featured" aria-labelledby="post1-title">
+                <div class="post-card-meta">
+                  <span class="post-tag">Technology</span>
+                  <time datetime="2026-03-10" class="post-date">March 10, 2026</time>
+                </div>
+                <h3 id="post1-title" class="post-card-title">
+                  <a href="#" class="post-card-link">The Last Algorithm: When Machines Stopped Asking Why</a>
+                </h3>
+                <p class="post-card-excerpt">
+                  There is a moment in every technological revolution where the tool begins to reshape the hand that wields it. We have reached that moment with machine intelligence — and most of us missed it happening.
+                </p>
+                <div class="post-card-footer">
+                  <span class="read-time">7 min read</span>
+                  <a href="#" class="read-more-link" aria-label="Read full article: The Last Algorithm">Read more →</a>
+                </div>
+              </article>
+
+              <!-- Article Card 2 -->
+              <article class="post-card" aria-labelledby="post2-title">
+                <div class="post-card-meta">
+                  <span class="post-tag">Culture</span>
+                  <time datetime="2026-02-28" class="post-date">February 28, 2026</time>
+                </div>
+                <h3 id="post2-title" class="post-card-title">
+                  <a href="#" class="post-card-link">Night Markets and the Economics of Forgetting</a>
+                </h3>
+                <p class="post-card-excerpt">
+                  In the alleyways of Taipei's Raohe Street, between the stalls selling stinky tofu and sesame noodles, I found a metaphor for everything wrong — and beautifully right — about late-stage capitalism.
+                </p>
+                <div class="post-card-footer">
+                  <span class="read-time">5 min read</span>
+                  <a href="#" class="read-more-link" aria-label="Read full article: Night Markets">Read more →</a>
+                </div>
+              </article>
+
+              <!-- Article Card 3 -->
+              <article class="post-card" aria-labelledby="post3-title">
+                <div class="post-card-meta">
+                  <span class="post-tag">Philosophy</span>
+                  <time datetime="2026-02-14" class="post-date">February 14, 2026</time>
+                </div>
+                <h3 id="post3-title" class="post-card-title">
+                  <a href="#" class="post-card-link">Against Optimization: A Case for Beautiful Inefficiency</a>
+                </h3>
+                <p class="post-card-excerpt">
+                  We have been told, for decades now, that efficiency is virtue. That the streamlined path is the righteous one. But what if the detour is the point? What if waste is where meaning hides?
+                </p>
+                <div class="post-card-footer">
+                  <span class="read-time">9 min read</span>
+                  <a href="#" class="read-more-link" aria-label="Read full article: Against Optimization">Read more →</a>
+                </div>
+              </article>
+
+              <!-- Article Card 4 -->
+              <article class="post-card" aria-labelledby="post4-title">
+                <div class="post-card-meta">
+                  <span class="post-tag">Society</span>
+                  <time datetime="2026-01-30" class="post-date">January 30, 2026</time>
+                </div>
+                <h3 id="post4-title" class="post-card-title">
+                  <a href="#" class="post-card-link">Midnight Protocols: How the City Sleeps and Who Stays Awake</a>
+                </h3>
+                <p class="post-card-excerpt">
+                  3 AM in any major city is a different country. The cleaners, the bakers, the nurses, the hackers — the skeleton crew that keeps civilization from collapsing before dawn. I spent a week meeting them.
+                </p>
+                <div class="post-card-footer">
+                  <span class="read-time">11 min read</span>
+                  <a href="#" class="read-more-link" aria-label="Read full article: Midnight Protocols">Read more →</a>
+                </div>
+              </article>
+
+            </div>
+          </section>
+
+          <!-- NEWSLETTER SIGNUP -->
+          <section id="newsletter" class="section newsletter-section" aria-labelledby="newsletter-heading">
+            <div class="newsletter-inner">
+              <div class="newsletter-content">
+                <span class="newsletter-badge">The Dispatch</span>
+                <h2 id="newsletter-heading" class="newsletter-title">Words in your inbox.<br />No noise. Just signal.</h2>
+                <p class="newsletter-description">
+                  Join 4,200+ readers who get new essays, longform pieces, and occasional late-night observations — delivered every other week. No ads. No tracking. Unsubscribe anytime.
+                </p>
+                <ul class="newsletter-perks" aria-label="Newsletter benefits">
+                  <li>✦ New essays every two weeks</li>
+                  <li>✦ Exclusive reader notes and drafts</li>
+                  <li>✦ Zero spam, ever</li>
+                </ul>
+              </div>
+              <div class="newsletter-form-wrap">
+                <form id="newsletter-form" class="newsletter-form" novalidate aria-label="Newsletter signup form">
+                  <div class="form-group">
+                    <label for="newsletter-name" class="form-label">Your name</label>
+                    <input
+                      type="text"
+                      id="newsletter-name"
+                      name="name"
+                      class="form-input"
+                      placeholder="Alex"
+                      autocomplete="given-name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="newsletter-email" class="form-label">Email address <span class="required" aria-label="required">*</span></label>
+                    <input
+                      type="email"
+                      id="newsletter-email"
+                      name="email"
+                      class="form-input"
+                      placeholder="you@example.com"
+                      required
+                      autocomplete="email"
+                      aria-describedby="email-error"
+                    />
+                    <span id="email-error" class="form-error" role="alert" aria-live="polite"></span>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-full">
+                    <span class="btn-text">Subscribe — It's Free</span>
+                    <span class="btn-loading" aria-hidden="true">Subscribing…</span>
+                  </button>
+                  <p class="form-disclaimer">By subscribing you agree to our privacy policy. We never sell your data.</p>
+                  <div class="form-success" role="status" aria-live="polite" hidden>
+                    <span class="success-icon">✦</span>
+                    <p>You're on the list! Check your inbox for a confirmation.</p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+          <!-- ARCHIVE SECTION -->
+          <section id="archive" class="section archive-section" aria-labelledby="archive-heading">
+            <div class="section-header">
+              <h2 id="archive-heading" class="section-title">Archive</h2>
+            </div>
+
+            <div class="archive-list">
+
+              <div class="archive-group">
+                <h3 class="archive-month">
+                  <button class="archive-toggle" aria-expanded="true" aria-controls="archive-mar-2026">
+                    <span>March 2026</span>
+                    <span class="archive-count">2</span>
+                    <span class="archive-chevron" aria-hidden="true">▾</span>
+                  </button>
+                </h3>
+                <ul id="archive-mar-2026" class="archive-posts">
+                  <li class="archive-post">
+                    <time datetime="2026-03-10" class="archive-date">Mar 10</time>
+                    <a href="#" class="archive-title">The Last Algorithm: When Machines Stopped Asking Why</a>
+                    <span class="archive-tag">Technology</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-03-02" class="archive-date">Mar 02</time>
+                    <a href="#" class="archive-title">On the Virtues of Analog Thinking in a Quantum Age</a>
+                    <span class="archive-tag">Philosophy</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="archive-group">
+                <h3 class="archive-month">
+                  <button class="archive-toggle" aria-expanded="true" aria-controls="archive-feb-2026">
+                    <span>February 2026</span>
+                    <span class="archive-count">3</span>
+                    <span class="archive-chevron" aria-hidden="true">▾</span>
+                  </button>
+                </h3>
+                <ul id="archive-feb-2026" class="archive-posts">
+                  <li class="archive-post">
+                    <time datetime="2026-02-28" class="archive-date">Feb 28</time>
+                    <a href="#" class="archive-title">Night Markets and the Economics of Forgetting</a>
+                    <span class="archive-tag">Culture</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-02-14" class="archive-date">Feb 14</time>
+                    <a href="#" class="archive-title">Against Optimization: A Case for Beautiful Inefficiency</a>
+                    <span class="archive-tag">Philosophy</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-02-05" class="archive-date">Feb 05</time>
+                    <a href="#" class="archive-title">The Cartography of Disappearing Languages</a>
+                    <span class="archive-tag">Culture</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="archive-group">
+                <h3 class="archive-month">
+                  <button class="archive-toggle" aria-expanded="false" aria-controls="archive-jan-2026">
+                    <span>January 2026</span>
+                    <span class="archive-count">4</span>
+                    <span class="archive-chevron" aria-hidden="true">▾</span>
+                  </button>
+                </h3>
+                <ul id="archive-jan-2026" class="archive-posts" hidden>
+                  <li class="archive-post">
+                    <time datetime="2026-01-30" class="archive-date">Jan 30</time>
+                    <a href="#" class="archive-title">Midnight Protocols: How the City Sleeps and Who Stays Awake</a>
+                    <span class="archive-tag">Society</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-01-20" class="archive-date">Jan 20</time>
+                    <a href="#" class="archive-title">Rewilding the Digital Commons</a>
+                    <span class="archive-tag">Technology</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-01-12" class="archive-date">Jan 12</time>
+                    <a href="#" class="archive-title">What the Ruins of Detroit Taught Me About Progress</a>
+                    <span class="archive-tag">Society</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2026-01-03" class="archive-date">Jan 03</time>
+                    <a href="#" class="archive-title">A Year in the Margins: Reading Notes 2025</a>
+                    <span class="archive-tag">Culture</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="archive-group">
+                <h3 class="archive-month">
+                  <button class="archive-toggle" aria-expanded="false" aria-controls="archive-dec-2025">
+                    <span>December 2025</span>
+                    <span class="archive-count">3</span>
+                    <span class="archive-chevron" aria-hidden="true">▾</span>
+                  </button>
+                </h3>
+                <ul id="archive-dec-2025" class="archive-posts" hidden>
+                  <li class="archive-post">
+                    <time datetime="2025-12-22" class="archive-date">Dec 22</time>
+                    <a href="#" class="archive-title">The Long Silence Before the New Year</a>
+                    <span class="archive-tag">Reflection</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2025-12-10" class="archive-date">Dec 10</time>
+                    <a href="#" class="archive-title">Ghost Infrastructure: The Internet Nobody Talks About</a>
+                    <span class="archive-tag">Technology</span>
+                  </li>
+                  <li class="archive-post">
+                    <time datetime="2025-12-01" class="archive-date">Dec 01</time>
+                    <a href="#" class="archive-title">Borders, Bureaucracy, and the Illusion of Home</a>
+                    <span class="archive-tag">Society</span>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+
+        </div><!-- end .main-content -->
+
+        <!-- RIGHT: SIDEBAR -->
+        <aside class="sidebar" id="about" aria-label="Sidebar">
+
+          <!-- ABOUT THE AUTHOR -->
+          <section class="sidebar-widget about-widget" aria-labelledby="about-heading">
+            <div class="about-avatar" aria-hidden="true">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="40" cy="40" r="40" fill="#1e1e1e"/>
+                <circle cx="40" cy="32" r="14" fill="#2a2a2a" stroke="#ff6b2b" stroke-width="1.5"/>
+                <ellipse cx="40" cy="68" rx="22" ry="14" fill="#2a2a2a" stroke="#ff6b2b" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h2 id="about-heading" class="widget-title">Alex Mercer</h2>
+            <p class="about-role">Writer &amp; Independent Journalist</p>
+            <p class="about-bio">
+              I write about technology, culture, and the strange places where they collide.
+              Former staff writer at <em>The Urban Chronicle</em>. Now independent, reporting
+              from wherever the story is.
+            </p>
+            <p class="about-bio">
+              Based between Berlin and wherever the next assignment takes me.
+              Coffee drinker. Late-night thinker. Occasional wanderer.
+            </p>
+            <div class="about-socials">
+              <a href="#" class="social-link" aria-label="Alex on Twitter/X">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Alex on Mastodon">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Alex on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Alex's RSS Feed">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+              </a>
+            </div>
+          </section>
+
+          <!-- TOPICS -->
+          <section class="sidebar-widget topics-widget" aria-labelledby="topics-heading">
+            <h2 id="topics-heading" class="widget-title">Topics</h2>
+            <div class="topics-cloud">
+              <a href="#" class="topic-tag">Technology</a>
+              <a href="#" class="topic-tag topic-tag--lg">Culture</a>
+              <a href="#" class="topic-tag">Philosophy</a>
+              <a href="#" class="topic-tag topic-tag--lg">Society</a>
+              <a href="#" class="topic-tag topic-tag--sm">Reflection</a>
+              <a href="#" class="topic-tag">Travel</a>
+              <a href="#" class="topic-tag topic-tag--sm">Music</a>
+              <a href="#" class="topic-tag">Urbanism</a>
+              <a href="#" class="topic-tag topic-tag--sm">Books</a>
+              <a href="#" class="topic-tag">Politics</a>
+            </div>
+          </section>
+
+          <!-- FEATURED / READING LIST -->
+          <section class="sidebar-widget reading-widget" aria-labelledby="reading-heading">
+            <h2 id="reading-heading" class="widget-title">Editor's Picks</h2>
+            <ol class="reading-list">
+              <li class="reading-item">
+                <span class="reading-num">01</span>
+                <a href="#" class="reading-title">Ghost Infrastructure: The Internet Nobody Talks About</a>
+              </li>
+              <li class="reading-item">
+                <span class="reading-num">02</span>
+                <a href="#" class="reading-title">The Cartography of Disappearing Languages</a>
+              </li>
+              <li class="reading-item">
+                <span class="reading-num">03</span>
+                <a href="#" class="reading-title">Against Optimization: A Case for Beautiful Inefficiency</a>
+              </li>
+              <li class="reading-item">
+                <span class="reading-num">04</span>
+                <a href="#" class="reading-title">What the Ruins of Detroit Taught Me About Progress</a>
+              </li>
+            </ol>
+          </section>
+
+        </aside><!-- end .sidebar -->
+
+      </div><!-- end .content-grid -->
+    </div><!-- end .content-wrapper -->
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Midnight Dispatch home">
+            <span class="logo-icon">◈</span>
+            <span class="logo-text">Midnight Dispatch</span>
+          </a>
+          <p class="footer-tagline">Stories From The Edge</p>
+          <p class="footer-desc">
+            Independent writing since 2024. Published from somewhere between midnight and morning.
+          </p>
+        </div>
+        <div class="footer-nav-cols">
+          <div class="footer-nav-col">
+            <h3 class="footer-nav-title">Explore</h3>
+            <ul class="footer-nav-list">
+              <li><a href="#recent-posts">Latest Posts</a></li>
+              <li><a href="#archive">Full Archive</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Culture</a></li>
+              <li><a href="#">Philosophy</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-col">
+            <h3 class="footer-nav-title">Connect</h3>
+            <ul class="footer-nav-list">
+              <li><a href="#about">About Alex</a></li>
+              <li><a href="#newsletter">Newsletter</a></li>
+              <li><a href="#">RSS Feed</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Press Kit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; <span id="footer-year">2026</span> Midnight Dispatch · Alex Mercer · All rights reserved
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-link social-link--sm" aria-label="Twitter/X">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link social-link--sm" aria-label="Mastodon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/></svg>
+          </a>
+          <a href="#" class="social-link social-link--sm" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="#" class="social-link social-link--sm" aria-label="RSS">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+          </a>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
